@@ -19,3 +19,6 @@ jobs:
 
     - name: GoReleaser Action
       uses: goreleaser/goreleaser-action@v4.3.0
+      with:
+        version: latest
+        args: release --clean
